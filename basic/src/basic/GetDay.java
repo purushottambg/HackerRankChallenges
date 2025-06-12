@@ -39,7 +39,7 @@ class Result {
 public class GetDay {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("Enter the month day and then year:");
         int month = scanner.nextInt();
 
         int day = scanner.nextInt();
